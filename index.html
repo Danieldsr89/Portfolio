@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="Imagem//apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="Imagem//favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="Imagem/">
-<link rel="manifest" href="/site.webmanifest">
-</head>
-<body>
- 
-    <div class="container">
-        <header>
-            <div class="img-wrapper">
-                <img src="Imagem/Bg1.jpg" alt="">
-            </div>
-            <div class="banner">
-                <h1>Desenvolvedor Front end</h1>
-                <p>Daniel dos Santos Rodrigues</p>
-                <button>Saiba mais</button>
-            </div>
-        </header>
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="Imagem//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Imagem//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagem/">
+    <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
     
-</body>
+        <div class="container">
+
+            <div class="hamburguer">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+                <span>fechar</span>
+            </div>    
+
+            <header>
+                <div class="img-wrapper">
+                    <img src="Imagem/Bg1.jpg" alt=""> 
+                </div>
+                <div class="banner">
+                    <h1>Desenvolvedor Front end</h1>
+                    <p>Daniel dos Santos Rodrigues</p>
+                    <button>Saiba mais</button>
+                </div>
+            </header>
+
+            <div class="sidebar">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Sobre mim</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Habilidades</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
+                    </ul>
+                </nav>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-square-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div> 
+        </div>
+        
+    </body>
+       <script src="script.js"></script> 
 </html>
